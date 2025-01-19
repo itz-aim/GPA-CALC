@@ -8,7 +8,7 @@
       font-family: fx-CW Series, sans-serif;
       margin: 0;
       padding: 0;
-      background-image: url('your-custom-picture.jpg'); /* Replace with your image file name or URL */
+      background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/073/237/small_2x/helix-pattern-on-a-white-background-free-vector.jpg'); /* Replace with your image file name or URL */
       background-size: cover;
       background-position: center;
     }
