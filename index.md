@@ -1,6 +1,3 @@
-#GPA-Calc {
-  display: none;
-}
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -11,14 +8,14 @@
       font-family: fx-CW Series, sans-serif;
       margin: 0;
       padding: 0;
-      background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/073/237/small_2x/helix-pattern-on-a-white-background-free-vector.jpg'); /* Replace with your image file name or URL */
+      background-image: url('https://img.freepik.com/free-vector/hand-drawn-soft-earth-tones-pattern_23-2151158457.jpg?t=st=1737297778~exp=1737301378~hmac=7bb14b19427164a7103d91086556ef5ca6d16d797acbc97bb28b2194a48b25ce&w=740'); /* Replace with your image file name or URL */
       background-size: cover;
       background-position: center;
     }
     .container {
       max-width: 600px;
       margin: 20px auto;
-      background: rgba(255, 255, 255, 0.2); /* White background with some transparency */
+      background: rgba(255, 255, 255, 0.5); /* White background with some transparency */
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
