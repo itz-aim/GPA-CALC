@@ -5,7 +5,7 @@
   <title>GPA Calculator</title>
   <style>
     body {
-      font-family: fx-CW Series, sans-serif;
+      font-family: Roboto , sans-serif;
       margin: 0;
       padding: 0;
       background-image: url('https://img.freepik.com/free-vector/hand-drawn-soft-earth-tones-pattern_23-2151158457.jpg?t=st=1737297778~exp=1737301378~hmac=7bb14b19427164a7103d91086556ef5ca6d16d797acbc97bb28b2194a48b25ce&w=740'); /* Replace with your image file name or URL */
@@ -84,13 +84,13 @@
       }
       button {
         margin: 5px 0;
-         font-size: 12px; /* Adjusted font size for smaller screens */ 
+         font-size: 15px; /* Adjusted font size for smaller screens */ 
          } 
          h1 { 
          font-size: 20px; /* Adjusted font size */ 
          } 
          label { 
-         font-size: 12px; /* Adjusted font size */
+         font-size: 15px; /* Adjusted font size */
       }
     }
   </style>
