@@ -5,7 +5,7 @@
   <title>GPA Calculator</title>
   <style>
     body {
-      font-family: Roboto , sans-serif;
+      font-family: 'Roboto' , sans-serif;
       margin: 0;
       padding: 0;
       background-image: url('https://img.freepik.com/free-vector/hand-drawn-soft-earth-tones-pattern_23-2151158457.jpg?t=st=1737297778~exp=1737301378~hmac=7bb14b19427164a7103d91086556ef5ca6d16d797acbc97bb28b2194a48b25ce&w=740'); /* Replace with your image file name or URL */
@@ -23,10 +23,14 @@
     h1 {
       text-align: center;
       color: #333;
+      font-size: 24px; 
+      font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
     }
     label {
       font-weight: bold;
       margin-top: 10px;
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif; /* Apply Roboto font */
     }
     input, select {
       width: 100%;
@@ -34,11 +38,13 @@
       margin: 10px 0;
       border: 1px solid #ccc;
       border-radius: 4px;
+      font-family: 'Roboto', sans-serif; /* Apply Roboto font */
     }
     .button-group {
       display: flex;
       justify-content: space-between;
       margin-top: 10px;
+      flex-wrap: wrap;
     }
     button {
       padding: 10px;
@@ -49,18 +55,19 @@
       border-radius: 4px;
       cursor: pointer;
       font-size: 16px;
+      font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
     }
     button:hover {
       opacity: 0.9;
     }
     button:first-child {
-      background-color: #20283E; /* Green for Add Course */
+      background-color: #28a745; /* Green for Add Course */
     }
     button:nth-child(2) {
       background-color: #20283E; /* Blue for Calculate GPA */
     }
     button:last-child {
-      background-color: #20283E; /* Red for Reset */
+      background-color: #dc3545; /* Red for Reset */
     }
     .results, .course-list {
       margin-top: 20px;
