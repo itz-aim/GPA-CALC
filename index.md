@@ -84,7 +84,13 @@
       }
       button {
         margin: 5px 0;
-        font-size: 14px;
+         font-size: 12px; /* Adjusted font size for smaller screens */ 
+         } 
+         h1 { 
+         font-size: 20px; /* Adjusted font size */ 
+         } 
+         label { 
+         font-size: 12px; /* Adjusted font size */
       }
     }
   </style>
