@@ -8,12 +8,14 @@
       font-family: fx-CW Series, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #1C4E80;
+      background-image: url('your-custom-picture.jpg'); /* Replace with your image file name or URL */
+      background-size: cover;
+      background-position: center;
     }
     .container {
       max-width: 600px;
       margin: 20px auto;
-      background: #fff;
+      background: rgba(255, 255, 255, 0.8); /* White background with some transparency */
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -70,6 +72,21 @@
     .results p, .course-list p {
       margin: 5px 0;
     }
+
+    /* Media Queries for responsive design */
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+        width: 90%;
+      }
+      .button-group {
+        flex-direction: column;
+      }
+      button {
+        margin: 5px 0;
+        font-size: 14px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -80,8 +97,7 @@
       <input type="text" id="courseCode" placeholder="Enter course code (e.g., BMKT2323)" required>
       <label for="credits">Credit Hours:</label>
       <input type="number" id="credits" placeholder="Enter credit hours" required>
-
-  <label for="grade">Grade:</label>
+      <label for="grade">Grade:</label>
       <select id="grade" required>
         <option value="" disabled selected>Select grade</option>
         <option value="4.0">A  (4.0)</option>
@@ -95,20 +111,17 @@
         <option value="1.0">D  (1.0)</option>
         <option value="0.0">F  (0.0)</option>
       </select>
-
-  <div class="button-group">
+      <div class="button-group">
         <button type="button" onclick="addCourse()">Add Course</button>
         <button type="button" onclick="calculateGPA()">Calculate GPA</button>
         <button type="button" onclick="resetForm()">Reset</button>
       </div>
     </form>
-
-  <div id="courseList" class="course-list">
+    <div id="courseList" class="course-list">
       <h2>Added Courses:</h2>
       <p>No courses added yet.</p>
     </div>
-    
-  <div id="results" class="results"></div>
+    <div id="results" class="results"></div>
   </div>
 
   <script>
