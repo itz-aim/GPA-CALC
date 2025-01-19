@@ -1,3 +1,6 @@
+#GPA-Calc {
+  display: none;
+}
 <html lang="en">
 <head>
   <meta charset="UTF-8">
