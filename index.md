@@ -54,13 +54,13 @@
       opacity: 0.9;
     }
     button:first-child {
-      background-color: #28a745; /* Green for Add Course */
+      background-color: #20283E; /* Green for Add Course */
     }
     button:nth-child(2) {
       background-color: #20283E; /* Blue for Calculate GPA */
     }
     button:last-child {
-      background-color: #dc3545; /* Red for Reset */
+      background-color: #20283E; /* Red for Reset */
     }
     .results, .course-list {
       margin-top: 20px;
