@@ -57,5 +57,3 @@ This project was developed with assistance from AI tools. Here’s how they were
 - **Programming Concepts**: Leveraged loops, arrays, and functions for data processing.
 - **Validation**: Implemented input validation for course details.
 - **UI/UX**: Designed a user-friendly interface with responsive design.
-
-## Folder Structure
