@@ -1,3 +1,11 @@
+#GROUP 1 MEMBERS :
+- **(B132310232)** MUHAMMAD ALIFF ISYRAQ MAULA AWG ARIPPIN
+- **(B132310014)** BRANDON ANAK KIAI
+- **(B132310346)** MUHAMMAD ZAKRI IZZAN BIN MOHD ZAKI
+- **(B132310292)** BRIAN WONG ZHE XIAN
+- **(B132310179)** DANISH AL BAQRY BIN KHAIRIL ANUAR
+
+
 # GPA Calculator
 
 This is a simple GPA Calculator web application that allows users to input their course details, including course code, credit hours, and grades, to calculate their GPA. The application also enables users to manage their course list and view the calculated GPA.
